@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/tonnel-wiki/assets/">
+  
+  <link rel="stylesheet" href="./css/style.css?{{site.time|date:'%s%N'}}">
+  <script src="./js/script.js?{{site.time|date:'%s%N'}}"></script>
+
+  <!--link rel="icon" href="./images/icons/icon.png" type="image/png"-->
+
+  <title>Tonnel Wiki : {{ page.title }}</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title"      content="Tonnel Wiki : {{ page.title }}">
+  <meta property="twitter:title" content="Tonnel Wiki : {{ page.title }}">
+
+  <meta name="description"             content="{{ page.description }}">
+
+  <!--
+  <meta property="og:description"      content="{{ page.description }}">
+  <meta property="twitter:description" content="{{ page.description }}">
+
+  <meta property="og:url"      content="https://github.io/tonnel-wiki{{ page.url }}">
+  <meta property="twitter:url" content="https://github.io/tonnel-wiki{{ page.url }}">
+
+  <meta property="og:image"      content="https://github.io/tonnel-wiki/assets/images/banners/{{ page.banner | default: "default.png" }}">
+  <meta property="twitter:image" content="https://github.io/tonnel-wiki/assets/images/banners/{{ page.banner | default: "default.png" }}">
+  <meta property="twitter:card" content="summary">
+  -->
+
+</head>
+<body>
+  <div style="max-width:900px;margin:0 auto;margin-top:32px;">
+    {{ content }}
+  </div>
+</body>
+</html>
