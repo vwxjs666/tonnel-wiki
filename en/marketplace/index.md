@@ -22,7 +22,7 @@ Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts (we recommend givi
 
 ## Buying a Gift  
 
-- Before buying your first gift, message [@GiftRelayer](https://t.me/GiftRelayer)** it cost one Stars and lets the bot transfer gifts to you.  
+- Before buying your first gift, message [@GiftRelayer](https://t.me/GiftRelayer) it cost one Stars and lets the bot transfer gifts to you.  
 
 1. Deposit tokens.  
 2. You can filter gifts with Collections, Models, Backdrops, Symbols, Gift ID, Price Range.  
