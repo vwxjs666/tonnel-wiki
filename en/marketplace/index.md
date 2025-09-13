@@ -34,7 +34,7 @@ Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts (we recommend givi
 - TON & USDT: 6% fee (3% marketplace, 3% referral)  
 - Displayed price = seller's price + fee  
 
-### Icons and Indicators:  
+### Icons & Indicators:  
 - Telegram icon (top-right): Listed from Telegram inside Tonnel.  
 - Timer icon (top-left): Pre-Market gift (21-day lock).  
 - Cart Icon (bottom-right): Add to shopping cart for bulk purchase or save for later.  
