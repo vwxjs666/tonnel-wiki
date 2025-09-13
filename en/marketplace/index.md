@@ -40,7 +40,7 @@ Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts (we recommend givi
 - Cart Icon (bottom-right): Add to shopping cart for bulk purchase or save for later.  
 - Gift Icon (bottom-left): Send gift directly to another user.  
 - Blue glowing border: Mintable gift (after 14 days in [@GiftRelayer](https://t.me/GiftRelayer)).  
-- Green glowing border: A Bundle with multiple gifts listed for sale ().  
+- Green glowing border: A Bundle with multiple gifts listed for sale (check bundle gift before buying!).  
 
 ### Rules:  
 - Pre-Market purchases: Delivery after 21 days. If seller fails → refund + 10%.  
