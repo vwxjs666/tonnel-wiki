@@ -28,7 +28,7 @@ window.onload = () => {
 
   const main = document.createElement("a");
   main.href = `/${paths[0]}/${paths[1]}/`;
-  main.textContent = "Back";
+  main.textContent = "Back to Main";
   footer.appendChild(main);
 
   langs.forEach(l => {
