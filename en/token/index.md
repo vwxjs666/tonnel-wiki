@@ -1,1 +1,1 @@
-<img src="https://raw.githubusercontent.com/vwxjs666/tonnel-chart/refs/heads/main/tonnel.png" style="width:100%;max-width:600px;margin:0 auto;border-radius:24px;">
+<img src="https://raw.githubusercontent.com/vwxjs666/tonnel-chart/refs/heads/main/tonnel.png" style="width:100%;max-width:600px;margin-left:50%;transform:translateX(-50%);border-radius:24px;">
