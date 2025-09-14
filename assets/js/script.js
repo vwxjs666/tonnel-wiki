@@ -18,4 +18,26 @@ window.onload = () => {
     });
     h.insertBefore(b,h.firstChild);
   });
+
+  const langs = ["en"];
+
+  const url = new URL(window.location.href);
+  const paths = url.pathname.split("/").filter(Boolean);
+
+  const s = paths.slice(2).join("/");
+
+  const main = document.createElement("a");
+  main.href = `/${paths[0]}/${paths[1]}/`;
+  main.textContent = `${c.toUpperCase()} Main`;
+  footer.appendChild(main);
+
+  langs.forEach(l => {
+    if (l !== c) {
+      const link = document.createElement("a");
+      link.href = `/${paths[0]}/${paths[1]}/${s}`;
+      link.textContent = lang.toUpperCase();
+      footer.appendChild(link);
+    }
+  });
+
 }
