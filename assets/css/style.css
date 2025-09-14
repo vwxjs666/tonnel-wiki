@@ -78,7 +78,7 @@
 }
 
 * {
-  scrollbar-color: var(--bg) var(--bg1);
+  scrollbar-color: var(--hr) var(--bg1);
   unicode-bidi: plaintext;
 }
 
