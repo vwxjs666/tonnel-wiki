@@ -6,7 +6,7 @@ description: ""
 
 # Tonnel Gift Marketplace  
 
-Before anything, make sure you are using the correct bot [@Tonnel_Network_Bot](https://t.me/Tonnel_Network_Bot)  
+Before anything, make sure you are using [@Tonnel_Network_Bot](https://t.me/Tonnel_Network_Bot)  
 Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts (we recommend giving it a custom name and profile to avoid mistakes when sending gifts).  
 
 ---
@@ -133,4 +133,5 @@ Collateral System:
 ---
 
 ## GiFi
+
 
