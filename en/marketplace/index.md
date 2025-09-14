@@ -34,7 +34,7 @@ Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts and send it a sing
 
 ### Icons & Indicators:  
 - Telegram icon (top-right): Means the gift was listed from Telegram inside Tonnel.  
-- Timer icon (top-left): Pre-Market gift (21-day lock) see [Pre-Marekt](#pre-market).  
+- Timer icon (top-left): Pre-Market gift (21-day lock) see [Pre-Market](#pre-market).  
 - Cart Icon (bottom-right): Used to add a gift to your shopping cart for bulk purchase or save for later.  
 - Gift Icon (bottom-left): To send gift directly to another user.  
 - Blue glowing border: Mintable gift (after 14 days in [@GiftRelayer](https://t.me/GiftRelayer)).  
