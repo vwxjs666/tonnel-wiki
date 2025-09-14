@@ -8,9 +8,9 @@ description: ""
 
 ---
 
-## [Gift Marketplace](./en/marketplace/)
-## [Token](./en/token/)
-## [Coffin](./en/)
-## [Mixer](./en/)
-## [ZkFragment](./en/)
-## [Tonnel DNS](./en/)
+## [Gift Marketplace](./marketplace/)
+## [Token](./token/)
+## [Coffin](./)
+## [Mixer](./)
+## [ZkFragment](./)
+## [Tonnel DNS](./)
