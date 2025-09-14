@@ -28,11 +28,11 @@ window.onload = () => {
 
   const main = document.createElement("a");
   main.href = `/${paths[0]}/${paths[1]}/`;
-  main.textContent = `${c.toUpperCase()} Main`;
+  main.textContent = `${paths[1].toUpperCase()} Main`;
   footer.appendChild(main);
 
   langs.forEach(l => {
-    if (l !== c) {
+    if (l !== paths[1]) {
       const link = document.createElement("a");
       link.href = `/${paths[0]}/${paths[1]}/${s}`;
       link.textContent = lang.toUpperCase();
