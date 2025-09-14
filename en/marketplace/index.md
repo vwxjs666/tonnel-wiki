@@ -87,7 +87,7 @@ Collateral System:
 
 ## Offers  
 
-- Each offer costs 0.01 TON for TON and 0.5 TON for other tokens.  
+- Each offer costs 0.01 TON for TON and 0.5 TON for other tokens. ( for TONNEL and USDT offers you receive 50% of it )  
 - Sellers can Accept, Reject, or Counter-Offer (free).  
 - Gift pages display previous offers.  
 - Offers can be canceled by the buyer unless accepted.  
@@ -133,3 +133,4 @@ Collateral System:
 ---
 
 ## GiFi
+
