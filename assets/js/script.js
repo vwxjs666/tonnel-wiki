@@ -1,8 +1,8 @@
 const langs = ["en","ru","fa"];
 const url = new URL(window.location.href);
 const paths = url.pathname.split("/").filter(Boolean);
-const lang_index = paths.findIndex(s=>s.length==2&&langs.includes(s));
-const lang = paths[lang_index];
+const lang_index = paths.findIndex(s=>s.length==2&&langs.includes(s.toLowerCase()));
+const lang = paths[lang_index].toLowerCase();
 const s0 = paths.slice(0,lang_index).join("/");
 const s1 = paths.slice(lang_index+1).join("/");
 
