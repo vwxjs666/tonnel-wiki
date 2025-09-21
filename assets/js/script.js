@@ -1,13 +1,10 @@
+const langs = ["en","fa"];
+const url = new URL(window.location.href);
+const paths = url.pathname.split("/").filter(Boolean);
+const s = paths.slice(2).join("/");
+if (paths[1]=="fa") document.documentElement.setAttribute("dir","rtl");
+
 window.onload = () => {
-
-  const langs = ["en","fa"];
-
-  const url = new URL(window.location.href);
-  const paths = url.pathname.split("/").filter(Boolean);
-
-  const s = paths.slice(2).join("/");
-
-  if (paths[1]=="fa") document.documentElement.setAttribute("dir","rtl");
 
   if (paths.slice(2).length>0) {
     const main = document.createElement("a");
