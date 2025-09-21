@@ -11,10 +11,15 @@ if (lang=="fa") document.documentElement.setAttribute("dir","rtl");
 window.onload = () => {
 
   if (paths.slice(lang_index+1).length>0) {
-    const main = document.createElement("a");
-    main.href = `/${s0}/${lang}/`;
-    main.textContent = "Back to Main";
-    footer.appendChild(main);
+
+    const home = document.createElement("a");
+    home.href = `/${s0}/${lang}/`;
+    home.textContent = "< Back";
+    footer.appendChild(home);
+
+    const sp = document.createElement("span");
+    sp.textContent = "|";
+    footer.appendChild(sp);
 
     document.querySelectorAll("h1").forEach((h) => {
       const b = document.createElement("span");
@@ -72,3 +77,4 @@ window.onload = () => {
   });
 
 }
+
