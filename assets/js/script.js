@@ -1,4 +1,4 @@
-const langs = ["en","fa"];
+const langs = ["en","ru","fa"];
 const url = new URL(window.location.href);
 const paths = url.pathname.split("/").filter(Boolean);
 const s = paths.slice(2).join("/");
