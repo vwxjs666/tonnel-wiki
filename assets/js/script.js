@@ -23,8 +23,8 @@ window.onload = () => {
       }
       b.style.cursor = "pointer";
       b.innerHTML = (paths[1]=="fa")
-        ? `<svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 -960 960 960" fill="currentColor"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>`
-        : `<svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 -960 960 960" fill="currentColor"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>`;
+        ? `<svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="currentColor"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>`
+        : `<svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="currentColor"><path d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>`;
 
       b.addEventListener("click", () => {
         // Copy current paths and remove only the last segment after lang
