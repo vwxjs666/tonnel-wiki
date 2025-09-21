@@ -28,9 +28,12 @@ Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts and send it a sing
 3. Use the token dropdown ( TON / TONNEL / USDT ) to view listings for each token.  
 
 ### Fees:  
-- TONNEL: 0% fee  
-- TON & USDT: 6% fee (3% marketplace, 3% referral)  
+Sale and Auctions  
+- TONNEL: 3%  
+- TON & USDT: 6%  
 - Displayed price = seller's price + fee (the price you list your gift is exactly what you receive after the gift was sold and the buyer pays the fee)  
+- If you list a gift for 100 TON, it will be shown as 106 TON. When sold, you receive 100 TON, and your referrer gets 3 TON.  
+- For auctions, the fee is deducted from the last bid.  
 
 ### Icons & Indicators:  
 - Telegram icon (top-right): Means the gift was listed from Telegram inside Tonnel.  
