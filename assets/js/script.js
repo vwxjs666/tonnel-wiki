@@ -3,14 +3,14 @@ const url = new URL(window.location.href);
 const paths = url.pathname.split("/").filter(Boolean);
 const lang_index = paths.findIndex(s=>s.length==2&&langs.includes(s));
 const lang = paths[lang_index];
-const s0 = paths.slice(0,lang_index+1).join("/");
+const s0 = paths.slice(0,lang_index).join("/");
 const s1 = paths.slice(lang_index+1).join("/");
 
 if (lang=="fa") document.documentElement.setAttribute("dir","rtl");
 
 window.onload = () => {
 
-  if (paths.slice(2).length>0) {
+  if (paths.slice(lang_index+1).length>0) {
     const main = document.createElement("a");
     main.href = `/${s0}/${lang}/`;
     main.textContent = "Back to Main";
@@ -41,7 +41,7 @@ window.onload = () => {
       h.id = h.textContent.trim().toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9\-]/g,"");
       const b = document.createElement("span");
       b.style.width = b.style.height = "24px";
-      if (paths[1]=="fa") {
+      if (lang=="fa") {
         b.style.marginLeft = "6px";
       } else {
         b.style.marginRight = "6px";
