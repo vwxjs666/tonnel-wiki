@@ -1,33 +1,36 @@
 const langs = ["en","ru","fa"];
 const url = new URL(window.location.href);
 const paths = url.pathname.split("/").filter(Boolean);
-const s = paths.slice(2).join("/");
-if (paths[1]=="fa") document.documentElement.setAttribute("dir","rtl");
+const lang_index = paths.findIndex(s=>s.length==2&&langs.includes(s));
+const lang = paths[lang_index];
+const s0 = paths.slice(0,lang_index+1).join("/");
+const s1 = paths.slice(lang_index+1).join("/");
+
+if (lang=="fa") document.documentElement.setAttribute("dir","rtl");
 
 window.onload = () => {
 
   if (paths.slice(2).length>0) {
     const main = document.createElement("a");
-    main.href = `/${paths[0]}/${paths[1]}/`;
+    main.href = `/${s0}/${lang}/`;
     main.textContent = "Back to Main";
     footer.appendChild(main);
 
     document.querySelectorAll("h1").forEach((h) => {
       const b = document.createElement("span");
       b.style.width = b.style.height = "34px";
-      if (paths[1]=="fa") {
+      if (lang=="fa") {
         b.style.marginLeft = "8px";
       } else {
         b.style.marginRight = "8px";
       }
       b.style.cursor = "pointer";
-      b.innerHTML = (paths[1]=="fa")
+      b.innerHTML = (lang=="fa")
         ? `<svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="currentColor"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>`
         : `<svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="currentColor"><path d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>`;
 
       b.addEventListener("click", () => {
-        // Copy current paths and remove only the last segment after lang
-        const parent = paths.slice(0, -1).join("/") + "/";
+        const parent = paths.slice(0,-1).join("/")+"/";
         window.location.href = `/${parent}`;
       });
 
@@ -60,9 +63,9 @@ window.onload = () => {
   }
 
   langs.forEach(l => {
-    if (l !== paths[1]) {
+    if (l !== lang) {
       const link = document.createElement("a");
-      link.href = `/${paths[0]}/${l}/${s}`;
+      link.href = `/${s0}/${l}/${s1}`;
       link.textContent = l.toUpperCase();
       footer.appendChild(link);
     }
