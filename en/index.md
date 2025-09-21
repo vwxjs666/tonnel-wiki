@@ -4,7 +4,7 @@ title: "Main"
 description: ""
 ---
 
-# Tonnel Wiki
+# Tonnel Usage Guide
 
 ---
 
