@@ -7,7 +7,7 @@ description: ""
 # Tonnel Gift Marketplace  
 
 Before anything, make sure you are using [@Tonnel_Network_Bot](https://t.me/Tonnel_Network_Bot).  
-Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts and send it a single message so the bot can send you gifts in the future (we recommend giving it a custom name and profile to avoid mistakes when sending gifts).  
+Add [@GiftRelayer](https://t.me/GiftRelayer) to your contacts and send it a single message so the bot can send you gifts in the future (we recommend giving it a custom name and profile to avoid mistakes when transfering gifts).  
 
 ---
 
