@@ -116,10 +116,6 @@ Collateral System:
 
 ---
 
-## Referral System  
-
----
-
 ## Orders  
 
 ---
