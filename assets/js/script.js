@@ -62,7 +62,7 @@ window.onload = () => {
   langs.forEach(l => {
     if (l !== paths[1]) {
       const link = document.createElement("a");
-      link.href = `/${paths[0]}/${paths[1]}/${s}`;
+      link.href = `/${paths[0]}/${l}/${s}`;
       link.textContent = l.toUpperCase();
       footer.appendChild(link);
     }
