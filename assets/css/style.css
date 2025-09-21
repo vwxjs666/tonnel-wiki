@@ -79,7 +79,7 @@
 
 * {
   scrollbar-color: var(--hr) var(--bg1);
-  unicode-bidi: plaintext;
+  unicode-bidi: normal;/*plaintext;*/
 }
 
 html {

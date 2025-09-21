@@ -66,7 +66,7 @@ window.onload = () => {
     if (l !== paths[1]) {
       const link = document.createElement("a");
       link.href = `/${paths[0]}/${paths[1]}/${s}`;
-      link.textContent = lang.toUpperCase();
+      link.textContent = l.toUpperCase();
       footer.appendChild(link);
     }
   });
