@@ -313,6 +313,59 @@ thead tr {
   border-bottom: solid 1px var(--br);
 }
 
+/**/
+
+.table_container {
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+  user-select: none;
+  outline: 1px solid var(--br);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+table {
+  margin: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  padding: 6px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+table td {
+  padding: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+table tbody tr:nth-child(even) {
+  background: var(--bg);
+}
+
+table tbody tr:nth-child(odd) {
+  background: var(--bg1);
+}
+
+table td.left {
+  text-align: left;
+}
+table td.right {
+  text-align: right;
+}
+table td.center {
+  text-align: center;
+}
+
+/**/
+
 figure,
 table {
   margin: 1rem 0;
