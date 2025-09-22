@@ -57,9 +57,9 @@
   --ac: hsl(201, 100%, 46%);/*#75f;*//*#3b5fc0;*/
   --br: hsl(217.2, 32.6%, 17.5%);
   --hd: var(--fg);/*#333;*/
-  --th: #111;
-  --td: #444;
-  --tr: #eee;
+  --th: #eee;
+  --td: #bbb;
+  --tr: #111;
   --hr: hsl(211, 24%, 20%);/*rgba(0, 0, 0, 0.05);*/
   --monospace: "Spline Sans Mono", Menlo, Consolas, monospace;
   --monospace-font: 14px/1.5 var(--monospace);
