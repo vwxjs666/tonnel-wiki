@@ -29,6 +29,6 @@ Domain Names replace long random wallet addresses with easy readable ones.
   - Auction duration is 1 hour.  
   - Higher bids extend auction for another hour.  
 
-## Following Auctions  
+---
 
-- You can use the bot DNS menu or [@Tonnel_DNS](https://t.me/tonnel_dns) to know about ongoing auctions.  
+You can use the bot DNS menu or [@Tonnel_DNS](https://t.me/tonnel_dns) to know about ongoing auctions.  
