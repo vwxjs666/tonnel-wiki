@@ -45,6 +45,7 @@ window.onload = () => {
     document.querySelectorAll("h2").forEach((h) => {
       h.id = h.textContent.trim().toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9\-]/g,"");
       const b = document.createElement("span");
+      b.setAttribute("title","Copy URL");
       b.style.width = b.style.height = "24px";
       if (lang=="fa") {
         b.style.marginLeft = "6px";
