@@ -24,7 +24,7 @@ Domain Names replace long random wallet addresses with easy readable ones.
 3. Search for your desired DNS name.  
   - Minimum length is 1 character.  
   - Price is based on length (paid in $TONNEL). (>13 characters = 1 $TONNEL)
-  - If it was taken you can see auction details. (you can make an **Offer** on [Getgems.io](https://getgems.io))  
+  - If it was taken you can see auction details. (you can make an offer on [Getgems.io](https://getgems.io))  
   - Else you can place a bid to start the auction.  
   - Auction duration is 1 hour.  
   - Higher bids extend auction for another hour.  
