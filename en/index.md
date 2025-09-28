@@ -13,4 +13,4 @@ description: ""
 ## [Coffin](./)
 ## [Mixer](./)
 ## [Zk Fragment](./)
-## [Tonnel DNS](./)
+## [Tonnel DNS](./dns/)
