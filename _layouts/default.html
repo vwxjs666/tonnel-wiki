@@ -41,6 +41,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 32px auto 0 auto;
+  width: 100%;
+}
  
 #footer {
   padding: 0 1rem 0rem 1rem;
@@ -52,19 +61,21 @@ body {
 
 </style>
 <body>
-  <div style="flex:1;width:100%;max-width:900px;margin:0 auto;margin-top:32px;">
-    {{ content }}
-  </div>
-  <div style="width:100%;max-width:900px;margin:0 auto;margin-top:auto;">
-    <hr>
-    <div id="footer" dir="ltr"></div>
-    <!--href="https://github.com/vwxjs666/tonnel-wikiommit/{{ site.github.build_revision }}"-->
-    <div style="display:flex;justify-content:space-between;color:hsl(211,24%,30%);margin:1rem;">
-      <div dir="ltr">
-        {{ site.time | date: '%Y-%m-%d %H:%M' }}
-      </div>
-      <div>
-        0x{{ site.github.build_revision | slice: 0,7 }}
+  <div class="wrapper">
+    <div>
+      {{ content }}
+    </div>
+    <div style="margin-top:auto;">
+      <hr>
+      <div id="footer" dir="ltr"></div>
+      <!--href="https://github.com/vwxjs666/tonnel-wikiommit/{{ site.github.build_revision }}"-->
+      <div style="display:flex;justify-content:space-between;color:hsl(211,24%,30%);margin:1rem;">
+        <div dir="ltr">
+          {{ site.time | date: '%Y-%m-%d %H:%M' }}
+        </div>
+        <div>
+          0x{{ site.github.build_revision | slice: 0,7 }}
+        </div>
       </div>
     </div>
   </div>
