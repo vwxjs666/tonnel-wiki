@@ -37,6 +37,8 @@ html, body {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   max-width: 900px;
   margin: 0 auto;
   height: 100%;
@@ -53,14 +55,14 @@ html, body {
 </style>
 <body>
   <div class="wrapper">
-    <div style="padding-top:32px;">
+    <div style="padding-top:32px">
       {{ content }}
     </div>
     <div style="margin-top:auto;">
-      <hr>
+      <hr style="margin-top:0">
       <div id="footer" dir="ltr"></div>
       <!--href="https://github.com/vwxjs666/tonnel-wikiommit/{{ site.github.build_revision }}"-->
-      <div style="display:flex;justify-content:space-between;color:hsl(211,24%,30%);padding:1rem;">
+      <div style="display:flex;justify-content:space-between;color:hsl(211,24%,30%);padding:1rem">
         <div dir="ltr">
           {{ site.time | date: '%Y-%m-%d %H:%M' }}
         </div>
